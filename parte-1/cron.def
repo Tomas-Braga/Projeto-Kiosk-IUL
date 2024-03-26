@@ -1,0 +1,16 @@
+###############################################################################
+## ISCTE-IUL: Trabalho prático de Sistemas Operativos 2022/2023
+##
+## Aluno: Nº:93024       Nome:Tomás Rafael Freitas Braga
+## Nome do Módulo: cron.def
+## Descrição/Explicação do Módulo:
+## Este ficheiro é um exemplo de ficheiro de configuração do cron, que deve
+## ser configurado para executar o scripr refill.sh às 9h17 de cada quinta-feira.
+##
+## Explicação de quais os comandos a usar para configurar o seu sistema Linux
+## usando este ficheiro:
+## Deve o utilizador colocar este ficheiro como executavel, através do comando
+## chmod +x cron.def e executa-lo com o comando ./cron.def
+###############################################################################
+
+17 9 * * 4 ./refill.sh
