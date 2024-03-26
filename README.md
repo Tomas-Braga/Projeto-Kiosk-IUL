@@ -1,1 +1,8 @@
 # Projeto Kiosk-IUL
+O presente trabalho visa aplicar os conhecimentos adquiridos durante as aulas de Sistemas Operativos, com o objetivo de desenvolver os diferentes aspetos da plataforma Kiosk-IUL. A aplicação Kiosk-IUL permite gerir e fazer compras num quiosque de mercearias no campus do ISCTE que está aberto 24h e é totalmente automatizado. Na aplicação Kiosk-IUL existem os seguintes conceitos: 
+1. Utilizador: a pessoa que compra as mercearias. Os utilizadores têm de estar registados na plataforma KioskIUL com os seguintes dados – ID, Nome, Email, Senha, Contribuinte, Saldo (em créditos).
+2. Produto: o item que está disponível para compra. Os produtos são caracterizados por: Nome, Categoria, Preço, Stock atual, Stock máximo.
+3. Relatório de compras: relatório emitido com a descrição da utilização dos produtos registados no sistema, contendo o Nome de produto, Categoria de Produto, ID de utilizador, e data de compra.
+4. Relatório de stock: relatório emitido a pedido em que são identificados os produtos com falta de stock. Cada produto é identificado pelo seu nome, categoria, e número de itens em falta.
+
+Em termos gerais, um novo utilizador regista-se na aplicação Kiosk-IUL fornecendo os seus dados. Ao efetuar o registo, o utilizador deve carregar o seu saldo com créditos. Após o registo, o utilizador poderá comprar produtos do quiosque quando estes estiverem em stock. No ato da compra, o número de itens disponível é decrementado, é descontado o preço do produto ao saldo do utilizador, e é adicionada uma linha no relatório de compras. Semanalmente, às quintas-feiras às 9h17, um procedimento automático faz o refill dos produtos do quiosque.
